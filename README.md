@@ -6,6 +6,10 @@ An easy and straightforward Youtube downloader page
   sudo apt install python3-pip
   sudo pip3 install yt-dlp
 
+Then make sure ffmpeg is also installed:
+
+  sudo apt install ffmpeg
+ 
 I've designed it to work with lighttpd and tested it on Debian based distributions.
 
 To install the page and start downloading videos you have to install the following packages:
