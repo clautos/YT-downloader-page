@@ -30,7 +30,7 @@ function downloadYTVideo($url, $choix) {
     }
     else
     {
-	echo "Impossible de télécharger la vidéo";
+	echo "Impossible to download the video";
 	exit;
     }
     $cmd=" ";
@@ -92,7 +92,6 @@ function downloadYTVideo($url, $choix) {
     exit;
 }
 
-// Traitement du formulaire lorsque le formulaire est soumis
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (isset($_POST['url'])) {
         $url = $_POST['url'];
@@ -107,7 +106,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Youtube-Downloader Facile</title>
+    <title>Youtube-Downloader Page</title>
     <style>
         body {
             font-family: Arial, sans-serif;
